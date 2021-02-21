@@ -7,6 +7,7 @@ Open de terminal en kopieer de repository:
 
 Navigeer naar de map die je net hebt gedownload en installeer de requirements.txt file:
 ###### pip install -r requirements.txt
+Het kan zijn dat je eerst nog pip moet installeren voor je OS.
 
 Vervolgens is alles klaar om de scraper te runnen. De code zal de Hash met hoogste waarde afdrukken en over ongeveer een minuut (afhankelijk van runtime) wordt de volgende hoogste hash met waarde getoond. Run volgende code. Afhankelijk van welke python versie je gebruikt zal je een van de 2 lijnen moeten proberen
 
