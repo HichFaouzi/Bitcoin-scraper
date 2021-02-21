@@ -1,0 +1,7 @@
+BeautifulSoup
+pandas
+requests
+collections
+re 
+time
+sleep
