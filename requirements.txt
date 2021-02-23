@@ -1,7 +1,5 @@
-BeautifulSoup
+beautifulsoup4
 pandas
 requests
-collections
-re 
-time
-sleep
+collections-extended
+ipython
