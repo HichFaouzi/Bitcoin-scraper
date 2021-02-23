@@ -3,3 +3,4 @@ pandas
 requests
 collections-extended
 ipython
+pymongo
