@@ -3,6 +3,8 @@ import pandas as pd
 import requests
 from IPython.display import display
 from time import time, sleep
+from pymongo import MongoClient 
+from itertools import chain
 
 def scraper():
     Hashes2 = []
@@ -36,8 +38,15 @@ def scraper():
 
     df = pd.DataFrame(data = FinalList,columns = col)
     df.sort_values(by=['BTC Value'], inplace=True, ascending=False)
-    display(df.iloc[:1])
+    df_list = df.iloc[:1].values.tolist()
+    flatten_list = list(chain.from_iterable(df_list))
+    conn = MongoClient()
+    db = conn["BTCscraper_db"]
+    mydict = { "Hash": flatten_list[0], "Time": flatten_list[1], "BTC_Value": flatten_list[2], "USD": flatten_list[3] }
+    db.BTC_Collection.insert_one(mydict)
+    print(df.iloc[:1])
 
 while True:
     scraper()
     sleep(60 - time() % 60)
+
