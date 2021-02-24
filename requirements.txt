@@ -4,3 +4,4 @@ requests
 collections-extended
 ipython
 curl
+pymongo
