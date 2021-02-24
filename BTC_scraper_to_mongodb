@@ -1,7 +1,0 @@
-sudo curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
-sudo apt update
-sudo apt install mongodb-org
-sudo systemctl start mongod.service
-mongo
-use BTCscraper_db
-
