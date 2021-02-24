@@ -20,7 +20,7 @@ als je al in de directory zit waar het script in zit voer dan volgend commando u
 Vervolgens is alles klaar om de scraper te runnen. De code zal de Hash met hoogste waarde afdrukken en over ongeveer een minuut (afhankelijk van runtime) wordt de volgende hash met hoogste waarde van op dat moment getoond. Ook zullen de lijnen die getoond worden ook worden weggeschreven in een mongodb databank. Run volgende code. Afhankelijk van welke python versie je gebruikt zal je een van de 2 lijnen moeten proberen
 
 Python3:
-##### python3 BitcoinScraper.py
+### python3 BitcoinScraper.py
 
 Om het script te laten stoppen druk op volgende toetsen: CTRL + C
 
