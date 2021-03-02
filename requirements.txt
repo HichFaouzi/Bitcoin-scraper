@@ -5,6 +5,6 @@ collections-extended
 ipython
 curl
 pymongo
-redis-server
+redis
 numpy
 
