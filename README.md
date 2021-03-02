@@ -3,7 +3,7 @@
 Met de scraper die ik heb gemaakt krijg je elk minuut de bitcoinhash met de grootste waarde te zien.Deze worden ook automatisch weggeschreven in en mongodb database. Hieronder geef ik een opsomming van instructies om de code te kunnen gebruiken op een linux PC.
 
 Open de terminal en kopieer de repository:
-###### git clone https://github.com/HichFaouzi/Bitcoin-scraper.git
+<code> git clone https://github.com/HichFaouzi/Bitcoin-scraper.git </code>
 
 Navigeer naar de map die je net hebt gedownload en installeer de requirements.txt file:
 ###### pip install -r requirements.txt
