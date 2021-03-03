@@ -49,4 +49,4 @@ def scraper():
 
 while True:
     scraper()
-    sleep(5 - time() % 5)
+    sleep(60 - time() % 60)
